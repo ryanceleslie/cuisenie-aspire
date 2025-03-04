@@ -13,8 +13,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Cuisenie.ApiService\Cuisenie.ApiService.csproj" />
-    <ProjectReference Include="..\Cuisenie.Web\Cuisenie.Web.csproj" />
+    <ProjectReference Include="..\client\Cuisenie.Web\Cuisenie.Web.csproj" />
+    <ProjectReference Include="..\services\Cuisenie.ApiService\Cuisenie.ApiService.csproj" />
   </ItemGroup>
 
   <ItemGroup>

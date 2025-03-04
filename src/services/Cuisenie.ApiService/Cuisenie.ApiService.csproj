@@ -7,11 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Cuisenie.ServiceDefaults\Cuisenie.ServiceDefaults.csproj" />
+    <ProjectReference Include="..\..\Cuisenie.ServiceDefaults\Cuisenie.ServiceDefaults.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Aspire.StackExchange.Redis.OutputCaching" Version="9.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,6 @@
-namespace Cuisenie.Tests;
+namespace Cuisenie.IntegrationTests.Tests;
 
-public class WebTests
+public class IntegrationTests
 {
     [Fact]
     public async Task GetWebResourceRootReturnsOkStatusCode()
@@ -26,3 +26,4 @@ public class WebTests
         Assert.Equal(HttpStatusCode.OK, response.StatusCode);
     }
 }
+
