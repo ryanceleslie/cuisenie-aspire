@@ -1,6 +1,0 @@
-@Cuisenie.IdentityService_HostAddress = http://localhost:5236
-
-GET {{Cuisenie.IdentityService_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

@@ -11,8 +11,4 @@ builder.AddProject<Projects.Cuisenie_Web>("webfrontend")
     .WithReference(apiService)
     .WaitFor(apiService);
 
-builder.AddProject<Projects.Cuisenie_IdentityService>("identityservice");
-
-builder.AddProject<Projects.Cuisenie_IdentityWeb>("identityweb");
-
 builder.Build().Run();
