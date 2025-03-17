@@ -11,4 +11,8 @@ builder.AddProject<Projects.Cuisenie_Web>("webfrontend")
     .WithReference(apiService)
     .WaitFor(apiService);
 
+builder.AddProject<Projects.Cuisenie_RecipeService>("recipeservice");
+
+builder.AddProject<Projects.NoTopLevelStatementExample>("notoplevelstatementexample");
+
 builder.Build().Run();

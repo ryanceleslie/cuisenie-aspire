@@ -1,0 +1,6 @@
+@NoTopLevelStatementExample_HostAddress = http://localhost:5135
+
+GET {{NoTopLevelStatementExample_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
